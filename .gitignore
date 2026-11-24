@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+.tox/
+.venv/
+venv/
+env/
+
+# uv: uv.lock is committed for reproducible installs
+
+# Node
+node_modules/
+.next/
+out/
+.pnpm-store/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Docker volumes (local)
+.data/
+data/postgres/
+data/qdrant/
+data/langfuse/
+data/charts/
+data/*.db
+data/eval_output*.txt
+data/notifications.jsonl
+data/node_path.txt
+data/node_ver.txt
+backend/data/qdrant/
+backend/data/charts/
+
+# Logs
+*.log
+logs/
+
+# Generated
+*.pem
+*.key
